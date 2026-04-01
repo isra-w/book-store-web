@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #f7f7f7;
+  color: #333;
+}
+
+/* HEADER */
+.header {
+  background: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ddd;
+}
+.foot nav {
+  margin-left: 10% ;
+  color: #ddd;
+  text-decoration: none;
+  display: grid;
+  flex-direction: row;
+  align-content: space-evenly;
+  justify-items:left ;
+}
+.foot {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.foot H3{
+  justify-items:normal;
+}
+.logo {
+  font-weight: bold;
+  color: #94270c;
+}
+
+/* BREADCRUMB */
+.breadcrumb {
+  max-width: 1200px;
+  margin: 20px auto;
+  font-size: 14px;
+}
+
+.breadcrumb a {
+  text-decoration: none;
+  color: rgb(151, 56, 2);
+}
+
+/* PRODUCT */
+.product-wrapper {
+  max-width: 1200px;
+  margin: auto;
+  background: white;
+  padding: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.product-images img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.thumbnails {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.thumbnails img {
+  width: 70px;
+  cursor: pointer;
+  border: 1px solid #ddd;
+}
+
+/* SUMMARY */
+.product-summary h1 {
+  margin-bottom: 10px;
+  text-align: center;
+  color: rgb(151, 56, 2);
+}
+
+.price {
+  text-align: center;
+  color: rgb(151, 56, 2);
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.stock {
+  text-align: center;
+  color: blue ;
+  margin-bottom: 15px;
+}
+
+.short-desc {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.cart-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px; 
+  justify-content: center;
+}
+
+.cart-row input {
+  width: 60px;
+  padding: 8px;
+ 
+}
+
+.add-cart-btn {
+  background: rgb(151, 56, 2);
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.product-meta {
+  font-size: 14px;
+  color: #666;
+}
+
+/* TABS */
+.tabs {
+  max-width: 1200px;
+  margin: 40px auto;
+  background: white;
+  padding: 30px;
+}
+
+.tab-buttons button {
+  padding: 10px 20px;
+  border: none;
+  background: #eee;
+  cursor: pointer;
+}
+
+.tab-buttons .active {
+  background: #046bd2;
+  color: white;
+}
+
+.tab-content {
+  display: none;
+  margin-top: 20px;
+}
+
+.tab-content.active {
+  display: block;
+}
