@@ -14,7 +14,7 @@
 
 ## 🚀 Quick Overview
 
-Welcome to the **Book Store Web** project! This is a full-stack web application designed to provide users with an intuitive platform to explore, search, and manage their favorite books. Whether you're a book lover or just looking to build your personal library, this application has you covered.
+Welcome to the **Book Store Web** project! This is a full-stack web application designed to provide users with an intuitive platform to explore, search, and manage their favorite books. Whether you're[...]
 
 ### ✨ Key Features
 
@@ -45,6 +45,7 @@ Hi! I'm **Esrael Worku**, a passionate computer science student with a keen inte
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white&style=for-the-badge)](https://instagram.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white&style=for-the-badge)](https://linkedin.com)
 [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white&style=for-the-badge)](https://github.com/isra-w)
+[![Upwork](https://img.shields.io/badge/Upwork-%230077B5.svg?logo=upwork&logoColor=white&style=for-the-badge)](https://www.upwork.com/freelancers/~016a980be28ea3f8b0?mp_source=share)
 
 ---
 
