@@ -1,25 +1,262 @@
-# 💫 About Me
+# 📚 Book Store Web
 
-🧑‍💻 I'm a computer science student my name is esrael worku I'm interested in working in different kind's of fields<br>🛠️I'm learning  website development both front end and back end, application development , algorithms', databases , mobile app development , AI <br> 💪 I'm great in learning and easily adopting with any situation and i can work under stressful situations<br>
+> A modern, interactive web application for browsing and managing books. Built with passion by a computer science enthusiast!
 
-## 🌐 Socials
+<div align="center">
 
-[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/iesraelw) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/israel.w_) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/esrael-worku-873317378) [![Pinterest](https://img.shields.io/badge/Pinterest-%23E60023.svg?logo=Pinterest&logoColor=white)](https://pinterest.com/israel.w_) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/@israell_w) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:israeyob1995@gmail.com )
+![Project Status](https://img.shields.io/badge/Status-Active-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-blue)
+![Version](https://img.shields.io/badge/Version-1.0.0-orange)
 
-# 💻 Tech Stack
+</div>
 
-![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![AssemblyScript](https://img.shields.io/badge/assembly%20script-%23000000.svg?style=for-the-badge&logo=assemblyscript&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white) ![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Adobe Acrobat Reader](https://img.shields.io/badge/Adobe%20Acrobat%20Reader-EC1C24.svg?style=for-the-badge&logo=Adobe%20Acrobat%20Reader&logoColor=white) ![Adobe](https://img.shields.io/badge/adobe-%23FF0000.svg?style=for-the-badge&logo=adobe&logoColor=white) ![Adobe Creative Cloud](https://img.shields.io/badge/Adobe%20Creative%20Cloud-DA1F26.svg?style=for-the-badge&logo=Adobe%20Creative%20Cloud&logoColor=white) ![Adobe Illustrator](https://img.shields.io/badge/adobe%20illustrator-%23FF9A00.svg?style=for-the-badge&logo=adobe%20illustrator&logoColor=white) ![Adobe InDesign](https://img.shields.io/badge/Adobe%20InDesign-49021F?style=for-the-badge&logo=adobeindesign&logoColor=FF3366) ![Adobe Lightroom](https://img.shields.io/badge/Adobe%20Lightroom-31A8FF.svg?style=for-the-badge&logo=Adobe%20Lightroom&logoColor=white) ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+---
 
-# 📊 GitHub Stats
+## 🚀 Quick Overview
 
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=isra-w&theme=github_dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+Welcome to the **Book Store Web** project! This is a full-stack web application designed to provide users with an intuitive platform to explore, search, and manage their favorite books. Whether you're a book lover or just looking to build your personal library, this application has you covered.
+
+### ✨ Key Features
+
+- 📖 **Browse Books** - Explore a vast collection of books with detailed information
+- 🔍 **Smart Search** - Find books by title, author, genre, or ISBN
+- ❤️ **Wishlist** - Save your favorite books for later
+- 🛒 **Shopping Cart** - Add books and manage your purchases
+- 👤 **User Profiles** - Create accounts and track your reading history
+- 💬 **Reviews & Ratings** - Share your thoughts and read other users' feedback
+- 📱 **Responsive Design** - Works seamlessly on desktop, tablet, and mobile devices
+
+---
+
+## 👨‍💻 About the Developer
+
+Hi! I'm **Esrael Worku**, a passionate computer science student with a keen interest in software development across multiple domains.
+
+### 🎯 My Journey
+
+- 🧑‍💻 **Background**: Computer Science student
+- 🛠️ **Current Focus**: Full-stack web development (Front-end & Back-end)
+- 🌱 **Always Learning**: Exploring new technologies and best practices
+- 🔥 **Passion**: Building interactive and user-friendly applications
+
+### 🌐 Connect With Me
+
+[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white&style=for-the-badge)](https://facebook.com/iesraelw)
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white&style=for-the-badge)](https://instagram.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white&style=for-the-badge)](https://linkedin.com)
+[![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white&style=for-the-badge)](https://github.com/isra-w)
+
+---
+
+## 💻 Tech Stack
+
+### Frontend
+![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![React](https://img.shields.io/badge/React-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+
+### Backend
+![C#](https://img.shields.io/badge/C%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white)
+![C++](https://img.shields.io/badge/C++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+
+### Database & Tools
+![SQL](https://img.shields.io/badge/SQL-%23CC2927.svg?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
+![Git](https://img.shields.io/badge/Git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Before you begin, ensure you have the following installed:
+- Node.js (v14.0 or higher)
+- npm or yarn
+- Git
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/isra-w/book-store-web.git
+   cd book-store-web
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. **Configure environment variables**
+   ```bash
+   cp .env.example .env.local
+   # Edit .env.local with your configuration
+   ```
+
+4. **Start the development server**
+   ```bash
+   npm start
+   # or
+   yarn start
+   ```
+
+5. **Open your browser**
+   ```
+   Navigate to http://localhost:3000
+   ```
+
+---
+
+## 📁 Project Structure
+
+```
+book-store-web/
+├── src/
+│   ├── components/      # Reusable React components
+│   ├── pages/          # Page components
+│   ├── styles/         # CSS and styling
+│   ├── services/       # API services
+│   └── App.js          # Main application file
+├── public/             # Static assets
+├── .env.example        # Environment variables template
+├── package.json        # Dependencies and scripts
+└── README.md          # This file!
+```
+
+---
+
+## 🎨 Features in Detail
+
+### 📖 Book Catalog
+Explore our extensive collection with:
+- High-quality book covers and descriptions
+- Detailed author information
+- Genre categorization
+- Availability status
+
+### 🔎 Advanced Search & Filter
+- Search by title, author, or ISBN
+- Filter by genre, price range, and rating
+- Sort by popularity, newest, or price
+
+### 🛍️ Shopping Experience
+- Intuitive shopping cart
+- Secure checkout process
+- Multiple payment options
+- Order tracking
+
+### 💬 Community Features
+- User reviews and ratings
+- Reading recommendations
+- Book club discussions
+- Personal reading lists
+
+---
+
+## 🤝 Contributing
+
+I'd love to see contributions! Here's how you can help:
+
+1. **Fork** the repository
+2. **Create** a new branch (`git checkout -b feature/amazing-feature`)
+3. **Commit** your changes (`git commit -m 'Add amazing feature'`)
+4. **Push** to the branch (`git push origin feature/amazing-feature`)
+5. **Open** a Pull Request
+
+Please ensure your code follows our style guidelines and includes appropriate tests.
+
+---
+
+## 📋 To-Do / Roadmap
+
+- [ ] Add advanced filtering options
+- [ ] Implement user authentication system
+- [ ] Add payment gateway integration
+- [ ] Create mobile app version
+- [ ] Add AI-powered book recommendations
+- [ ] Implement real-time notifications
+- [ ] Add multi-language support
+
+---
+
+## 🐛 Known Issues & Troubleshooting
+
+If you encounter any issues:
+
+1. **Clear cache and reinstall dependencies**
+   ```bash
+   rm -rf node_modules package-lock.json
+   npm install
+   ```
+
+2. **Check Node.js version**
+   ```bash
+   node --version  # Should be v14+
+   ```
+
+3. **Review environment variables**
+   - Ensure `.env.local` is properly configured
+
+For more help, please open an [Issue](https://github.com/isra-w/book-store-web/issues) on GitHub.
+
+---
+
+## 📚 Resources & Learning
+
+Here are some great resources that helped in building this project:
+
+- [MDN Web Docs](https://developer.mozilla.org/)
+- [React Documentation](https://react.dev)
+- [Node.js Guide](https://nodejs.org/en/docs/)
+- [CSS-Tricks](https://css-tricks.com/)
+
+---
+
+## 📊 Project Stats
+
+![GitHub Stars](https://img.shields.io/github/stars/isra-w/book-store-web?style=social)
+![GitHub Forks](https://img.shields.io/github/forks/isra-w/book-store-web?style=social)
+![GitHub Issues](https://img.shields.io/github/issues/isra-w/book-store-web)
+
+---
+
+## 📝 License
+
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 💡 Fun Fact
+
+> "A reader lives a thousand lives before he dies. The man who never reads lives only one." - George R.R. Martin
+
+This project is built with the belief that technology can enhance our reading experience! 📖✨
+
+---
+
+## 🙏 Acknowledgments
+
+- Thanks to all contributors and supporters
+- Special thanks to the open-source community
+- Inspiration from amazing web developers worldwide
+
+---
+
+<div align="center">
 
 ### ✍️ Random Dev Quote
 
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
-
 ---
-[![](https://komarev.com/ghpvc/?username=isra-w&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+**Made with ❤️ by [Esrael Worku](https://github.com/isra-w)**
+
+[![](https://komarev.com/ghpvc/?username=isra-w&label=Profile%20Views&color=0047AB)](https://visitcount.itsvg.in)
+
+</div>
