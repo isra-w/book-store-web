@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Checkout</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="checkout.css">
+</head>
+<body>
+
+<div class="checkout-container">
+
+  <h2>Checkout</h2>
+
+  <form>
+    <h3>Billing Details</h3>
+
+    <input type="text" placeholder="Full Name" required>
+    <input type="tel" placeholder="Phone Number (09XXXXXXXX)" required>
+    <input type="text" placeholder="City (e.g. Addis Ababa)" required>
+    <input type="text" placeholder="Sub-city / Area">
+    <textarea placeholder="Street / House description"></textarea>
+
+    <h3>Payment Method</h3>
+
+    <label><input type="checkbox" checked> Cash on Delivery</label><br>
+    <label><input type="checkbox"> Mobile Transfer (Coming Soon)</label>
+
+    <button type="submit">Place Order</button>
+  </form>
+
+</div>
+
+<script src="checkout.js"></script>
+</body>
+</html>

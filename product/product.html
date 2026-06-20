@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Product</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="product.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header">
+  <div class="logo">JJ BOOK SHOPPING</div>
+  <div class="icons">
+    <a href="../sign up/signin.html">👤</a>
+    <a href="../cart/cart.html">🛒 <span id="cartCount">0</span></a>
+  </div>
+</header>
+
+<!-- BREADCRUMB -->
+<nav class="breadcrumb">
+  <a href="../index.html">Home</a> /
+  <a href="../book/books.html">Books</a> /
+  <span id="breadcrumbProduct"></span>
+</nav>
+<!-- PRODUCT WRAPPER -->
+<main class="product-wrapper">
+
+  <!-- LEFT: IMAGES -->
+  <div class="product-images">
+    <img id="mainImage" src="" alt="Product Image">
+    <div class="thumbnails">
+      <img id="thumb1">
+      <img id="thumb2">
+    </div>
+  </div>
+
+  <!-- RIGHT: DETAILS -->
+  <div class="product-summary">
+    <h1 id="productName"></h1>
+    <p class="price" id="productPrice"></p>
+    <p class="stock">In stock</p>
+
+    <p class="short-desc" id="shortDescription"></p>
+
+    <!-- QUANTITY -->
+    <div class="cart-row">
+      <input type="number" id="qty" value="1" min="1">
+      <a id="addToCart" class="add-cart-btn">Add to cart</a>
+    </div>
+
+    <!-- META -->
+    <div class="product-meta">
+      <p><strong>Category:</strong> Books</p>
+      <p><strong>SKU:</strong> <span id="sku"></span></p>
+    </div>
+  </div>
+
+</main>
+
+<!-- TABS -->
+<section class="tabs">
+  <div class="tab-buttons">
+    <button class="active" data-tab="desc">Description</button>
+    <button data-tab="info">Additional Info</button>
+  </div>
+
+  <div class="tab-content active" id="desc">
+    <p id="fullDescription"></p>
+  </div>
+
+  <div class="tab-content" id="info">
+    <p>Pages: 320</p>
+    <p>Language: English</p>
+  </div>
+</section>
+    <footer class="footer">
+      <div class="foot">
+        <div class="discover">
+          <nav>
+            <h3>DISCOVER </h3>
+            <a href="">HOME</a>
+            <a href="">BOOKS</a>
+            <a href="">BOOK_CATAGORIES</a>
+            <a href="">AUTHORS</a>
+            <a href="">SHOP</a>
+          </nav>
+        </div>
+        <div class="quicklink">
+          <nav>
+            <H3>QUICK LINKS</H3>
+            <a href="">WEBSITE:WWW.JJBOOKSHOPPING.COM</a>
+            <a href="">TELEGRAM:@JJBOOKSHOPPING</a>
+            <a href="">INSTAGRAM:@JJBOOKSHOPPING</a>
+            <a href="">FACEBOOK:@JJBOOKSHOPPING</a>
+          </nav>
+        </div>
+        <div class="help">
+          <NAV>
+            <H3>HELP</H3>
+            <h4>CONTACT US</h4>
+            <a href="">EMAIL:WWW.JJBOOKSHOPPING.COM</a>
+            <a href="TELL:+011-123456">PHONE NUMBER: +011-123456</a>
+           <address> ADDRESS:MEXICO GREEN CAMPUS</address>
+            <a href=""></a>
+          </NAV>
+        </div>
+      </div>
+      <p>© 2026 JJ Book Shopping</p>
+    </footer>
+<script src="product.js"></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="login" content="books shopping login page" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Login & Sign Up</title>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+    <header >
+      <div class="logo">JJ BOOK SHOPPING</div>
+    </header>
+  <body>
+
+    <div class="wrapper" id="formWrapper">
+      <div class="form-container login">
+        <h2>Login</h2>
+        <form action="">
+          <input type="email" placeholder="Email, username..." required />
+          <input type="password" placeholder="Password" required />
+          <a href="#" class="forgot-password">Forgot password?</a>
+          <button onclick="signIn()" type="submit" class="submit-btn">Login</button>
+            <a href="#" onclick="guest()">Continue as Guest</a>
+          <label class="accept-terms">
+        </form>
+      </div>
+      <div class="form-container signup">
+        <h2>Sign Up</h2>
+        <form action="">
+          <input type="text" placeholder="Username" required />
+          <input type="email" placeholder="Email" required />
+          <input type="number" placeholder="phone number" required/>
+          <input type="password" placeholder="Password" required />
+          <input type="password" placeholder="Confirmed Password" required />
+          <label class="accept-terms">
+            <input type="checkbox" required />I accept the terms &
+            conditions</label
+            >
+            <button onclick="signIn()" type="submit" class="submit-btn">Sign Up</button>
+            <a href="#" onclick="guest()">Continue as Guest</a>
+        </form>
+      </div>
+      <div class="PAGE_SWITCH">
+        <div id="PAGE">
+          <h2>DON'T HAVE AN ACCOUNT?</h2>
+          <p>CREATE YOUR ACCOUNT HERE</p>
+        </div>
+        <button class="switch-btn" id="toggleBtn">SIGN UP</button>
+      </div>
+    </div>
+    <script src="login.js"></script>
+  </body>
+</html>

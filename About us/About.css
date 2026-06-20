@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: #333;
+  background: #f7f7f7;
+}
+
+/* HEADER */
+.header {
+  background: white;
+  padding: 15px 30px;
+  display: flex;
+  grid-template-columns: auto auto auto auto auto auto auto auto ;
+  justify-content: space-between;
+  border-bottom: 1px solid #ddd;
+}
+
+.foot nav {
+  margin-left: 10% ;
+  color: #ddd;
+  text-decoration: none;
+  display: grid;
+  flex-direction: row;
+  align-content: space-evenly;
+  justify-items:left ;
+}
+.foot {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.foot H3{
+  justify-items:normal;
+}
+.logo {
+  font-weight: bold;
+  color: #94270c;
+}
+.nav a {
+  color: #111;
+  margin-left: 15px;
+  text-decoration: none;
+}
+.nav a[href="About.html"] {
+  font-size: 22px;
+  color: rgb(151, 56, 2);
+}
+/* HERO */
+.about-hero {
+  background-image: url("../photos/cropped_book_section.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  height: 250px;
+  text-align: center;
+}
+
+.about-hero h1 span {
+  display: block;
+  font-weight: normal;
+  opacity: 0.85;
+}
+
+/* STORY */
+.story {
+  max-width: 1000px;
+  margin: 60px auto;
+}
+
+.story-block {
+  background: white;
+  padding: 30px;
+  margin-bottom: 30px;
+  border-left: 5px solid rgb(151, 56, 2);
+}
+
+.story-block.right {
+  border-left: none;
+  border-right: 5px solid rgb(151, 56, 2);
+  text-align: right;
+}
+
+/* MISSION */
+.mission {
+  background: #222;
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+/* VALUES */
+.values {
+  max-width: 1200px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.value-card {
+  background: white;
+  padding: 30px;
+  border-radius: 6px;
+}
+
+/* HUMAN */
+.human {
+  text-align: center;
+  padding: 80px 20px;
+  background: #fff;
+}
+
+/* FOOTER */
+.footer {
+  background: #25130af2;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+    .wrapper {
+        flex-direction: column;
+        max-width: 400px;
+    }
+
+    .form-container,
+    .PAGE_SWITCH {
+        width: 100%;
+        padding: 20px;
+    }
+}
